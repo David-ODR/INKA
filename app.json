@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "INKA",
+    "slug": "INKA",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/inkalogo-resized3.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.inkafoodapp.INKAFrontEnd",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow Expo experiences to use your location"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.inkafoodapp.INKAFrontEnd",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAuuxSN_OQXvWNLb1Iwo5XwPHf8JA98-CE"
+        }
+      }
+    },
+    "description": ""
+  }
+}
